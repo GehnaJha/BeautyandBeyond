@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+<title>Book Appointment | Beauty & Beyond</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo-area">
+<img src="logo2.jpeg" class="logo">
+<span class="brand-name">Beauty & Beyond</span>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="appointment.html">Book Appointment</a>
+<a href="about.html">About</a>
+</nav>
+<div class="cart">
+<a href="cart.html">🛒 Cart</a>
+</div>
+
+</header>
+
+<section class="appointment-section">
+
+<h1>Book an Appointment</h1>
+<p>Choose your preferred date and nail service</p>
+
+<form class="appointment-form">
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter your phone number">
+<label>E-mail</label>
+<input type="email" placeholder="Enter your email">
+
+    
+<label>Select Service</label>
+<select>
+<option>Custom Nail Design</option>
+<option>Nail Extensions</option>
+<option>Gel Nails</option>
+<option>Press-On Nails</option>
+</select>
+
+<label>Select Date</label>
+<input type="date">
+
+<label>Select Time</label>
+<input type="time">
+
+<label>Special Request</label>
+<textarea placeholder="Any specific nail design?"></textarea>
+
+<button type="button" onclick="bookAppointment()">Book Appointment</button>
+
+</form>
+<div id="popup" class="popup">
+<div class="popup-content">
+<h3>Appointment Confirmed</h3>
+<p>Your appointment has been booked successfully!</p>
+<button onclick="closePopup()">OK</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</section>
+<footer class="footer">
+
+<div class="footer-container">
+
+<!-- BRAND -->
+
+<div class="footer-brand">
+
+<img src="logo2.jpeg" class="footer-logo">
+
+<h3>Beauty & Beyond</h3>
+
+<p>Beauty that starts at your fingertips!</p>
+
+</div>
+
+
+<!-- QUICK LINKS -->
+
+<div class="footer-links">
+
+<h4>Quick Links</h4>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="appointment.html">Book Appointment</a>
+<a href="shop.html">Shop</a>
+
+</div>
+
+
+<!-- CONTACT INFO -->
+
+<div class="footer-contact">
+
+<h4>Contact Us</h4>
+
+<p>📍 Mumbai, India</p>
+<p>📞 +91 9876543210</p>
+<p>📧 beautyandbeyond@gmail.com</p>
+<a href="https://www.instagram.com/_beautyandbeyond.__" target="_blank">
+📸@_beautyandbeyond.__
+
+</div>
+
+</div>
+
+
+<!-- COPYRIGHT -->
+
+<div class="footer-bottom">
+
+<p>© 2026 Beauty & Beyond | All Rights Reserved</p>
+
+</div>
+
+</footer>
